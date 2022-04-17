@@ -8,7 +8,10 @@ python -m venv tf
 source tf/bin/activate
 ```
    
-### mac osx 
+### mac osx   
+설치 -> pip install -r requirements.txt   
+   
+### 설치 종류
 ```python
 brew install pyqt@5
 brew install protobuf
@@ -32,9 +35,16 @@ pip install tensorflow-macos
 하지 않으면 grpcio Error -> 하루종일 삽질..
 export GRPC_PYTHON_BUILD_SYSTEM_OPENSSL=1
 export GRPC_PYTHON_BUILD_SYSTEM_ZLIB=1
+
+mac osx  Error -> pip install tensorflow-io (Not Found)
+#깃으로 받아서 직접 설치해야 적용됨
+git clone https://github.com/tensorflow/io.git
+cd io
+python3 setup.py -q bdist_wheel
+
 ```
 
-### label Img를 사용해 라벨링하기
+label Img를 사용해 라벨링하기
 ```python
 https://github.com/tzutalin/labelImg
 ```
