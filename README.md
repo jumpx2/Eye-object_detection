@@ -1,4 +1,4 @@
-# Eye-tracking-object_detection
+# Eye-object_detection
 
 ### Start 
 ```python
