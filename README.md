@@ -27,6 +27,11 @@ pip install avro-python3
 pip install pyyaml
 pip install gin-config
 pip install tensorflow-macos
+   
+터미널 창에 입력 
+하지 않으면 grpcio Error -> 하루종일 삽질..
+export GRPC_PYTHON_BUILD_SYSTEM_OPENSSL=1
+export GRPC_PYTHON_BUILD_SYSTEM_ZLIB=1
 ```
 
 ### label Img를 사용해 라벨링하기
