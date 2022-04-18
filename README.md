@@ -64,4 +64,3 @@ http://download.tensorflow.org/models/object_detection/tf2/20200711/ssd_mobilene
 Tensorflow/model/research/object_detection/g3doc/tf2_detection_zoo.md 에서 많은 모델들 이름과 tar.gz 파일 및 map 존재
 ```
 
-### https://github.com/nicknochnack/TFODCourse를 보고 window를 mac os에 맞게 수정해서 eye tracking을 해봤습니다.
